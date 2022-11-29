@@ -9,12 +9,37 @@
         line-height: 2.2rem;
         margin-left: 1.5rem;
     }
+
+    @media(max-width: 1200px) {
+        span {
+            font-size: 1.8rem;
+        }
+    }
+
+    @media(max-width: 991px) {
+        justify-content: center;
+    }
+
+    @media(max-width: 560px) {
+        span {
+            font-size: 1.6rem;
+        }
+    }
 }
 
 h1 {
     font-weight: 700;
     font-size: 12.4rem;
     line-height: 97.5%;
+
+    @media(max-width: 1200px) {
+        font-size: 10rem;
+    }
+
+    @media(max-width: 560px) {
+        font-size: 6rem;
+    }
+    
 }
 
 h2 {
@@ -40,7 +65,8 @@ p {
         justify-content: center;
         width: 100%;
         max-width: 38.4rem;
-        height: 52rem;
+        height: 100%;
+        object-fit: cover;
         margin-bottom: 2.4rem;
         overflow: hidden;
 
@@ -87,6 +113,12 @@ p {
                 opacity: 1;
                 bottom: 5.7rem;
             }
+        }
+    }
+    
+    @media(max-width: 991px) {
+        .image {
+            height: 44rem;
         }
     }
 }
