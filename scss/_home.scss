@@ -3,8 +3,9 @@
     padding-top: 16.4rem;
     padding-bottom: 10.347rem;
     background-image: url("../assets/img/bg-hero.jpg");
-    background-position: center center;
+    background-position: top center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 
     .container {
         display: flex;
@@ -309,8 +310,8 @@
     .kratos-atreus {
         position: relative;
         max-width: 100%;
-        top: -46px;
-        left: 109px;
+        top: 12px;
+        left: 41px;
     }
 
     @media(max-width: 1200px) {
